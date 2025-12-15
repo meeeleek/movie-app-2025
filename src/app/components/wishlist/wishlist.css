@@ -1,0 +1,65 @@
+.movie-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    background: linear-gradient(180deg, #0f0f0f 0%, #1a1a1a 100%);
+    gap: 20px;
+    min-height: 80vh;
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(243, 156, 18, 0.2);
+}
+
+.movie-card:hover{
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 0 0 30px 8px rgba(231, 76, 60, 0.6),
+                0 0 60px 20px rgba(231, 76, 60, 0.4),
+                0 15px 40px rgba(0, 0, 0, 0.7);
+    border-color: rgba(231, 76, 60, 0.8);
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    filter: brightness(0.95);
+}
+
+.movie-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+}
+
+.movie-details {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(231, 76, 60, 0.15) 0%, rgba(192, 57, 43, 0.1) 100%);
+    backdrop-filter: blur(10px);
+}
+
+h2{
+    color: #f39c12;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
