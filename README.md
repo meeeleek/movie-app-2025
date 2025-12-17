@@ -1,59 +1,34 @@
-# MovieApp
+# 🎬 Movie App 2025
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+A modern and elegant movie application built with Angular, featuring a sleek dark theme with stunning visual effects.
 
-## Development server
+## 🌐 Live Demo
 
-To start a local development server, run:
+**[View Live Application](https://meeeleek.github.io/movie-app-2025/)**
 
-```bash
-ng serve
-```
+## ✨ Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- 🎥 **Browse Movies** - Explore a curated collection of movies
+- 🔍 **Search Functionality** - Find your favorite movies quickly
+- ❤️ **Wishlist** - Save movies to your personal wishlist
+- 🎨 **Modern UI** - Dark theme with gradient effects and smooth animations
+- 📱 **Responsive Design** - Works seamlessly on all devices
 
-## Code scaffolding
+## 🎨 Design Highlights
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Dark Theme**: Professional dark blue/navy color palette (#1a1a2e, #16213e)
+- **Accent Colors**: Vibrant orange/gold (#f39c12, #e67e22) for highlights
+- **Smooth Animations**: Hover effects with scale, glow, and transform
+- **Custom Scrollbar**: Styled scrollbar with gradient effects
+- **Visual Depth**: Advanced shadows and backdrop filters
 
-```bash
-ng generate component component-name
-```
+## 🚀 Technologies Used
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Angular 20** - Modern web framework
+- **TypeScript** - Type-safe development
+- **CSS3** - Advanced styling with gradients and animations
+- **FontAwesome** - Icon library
+- **RxJS** - Reactive programming
 
-```bash
-ng generate --help
-```
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+eeleek.github.io/movie-app-2025/)** | **[📝 Report Bug](https://github.com/meeeleek/movie-app-2025/issues)** | **[✨ Request Feature](https://github.com/meeeleek/movie-app-2025/issues)**
